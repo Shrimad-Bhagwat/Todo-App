@@ -8,6 +8,7 @@ class Task(models.Model):
     desc = models.TextField(null=True,blank=True)
     complete = models.BooleanField(default=False)
     create = models.DateTimeField(auto_now_add=True)
+    due_date = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return self.title

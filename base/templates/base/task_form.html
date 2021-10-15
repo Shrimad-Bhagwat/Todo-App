@@ -2,7 +2,7 @@
 {% block content %}
 <div class="header-bar">
 
-    <h2>Task Form</h2>
+    <h2>Add Task</h2>
     <a href="{% url 'tasks' %}" class="header-link">Go Back</a>
 </div>
 <div class="area">
@@ -12,6 +12,7 @@
     {% csrf_token %}
     
     {{form.as_p}}
+    <span>Format YYYY/MM/DD HH:MM:SS</span>
     <input type="submit" value="Submit">
 </form>
 
