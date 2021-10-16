@@ -18,6 +18,10 @@ git clone https://github.com/Shrimad-Bhagwat/Todo-App.git
 ```
 cd Todo-App
 ```
+or
+```
+cd Todo-App-main
+```
 
 ## Create virtual environment 
 ```
@@ -36,6 +40,6 @@ pip install -r requirements.txt
 
 ## Starting the application
 ```
-python main.py
+python manage.py runserver
 ```
-or `python [name_of_file].py`
+
