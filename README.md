@@ -7,6 +7,8 @@
 </div>
 
 
+
+
 # Setup
 
 ## Clone the repository
@@ -37,6 +39,7 @@ env/Scripts/activate
 ```
 pip install -r requirements.txt
 ```
+
 
 ## Starting the application
 ```
